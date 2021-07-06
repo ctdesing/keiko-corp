@@ -188,7 +188,7 @@ header .social li:first-child{
 /*		Hero section 		*/
 @media all and (min-width: 1280px) {
 	.hero {
-		background: url('../img/hero_1800.jpg') no-repeat fixed center center;
+		background: url('../img/hero_1800.webp') no-repeat fixed center center;
 	}
  }
 
@@ -282,7 +282,7 @@ a.app_store_btn{
 }
 
 .play_icon{
-	background: url('../img/play.png') no-repeat;
+	background: url('../img/play.webp') no-repeat;
 }
 
 .iphone_icon{
@@ -301,7 +301,7 @@ a.app_store_btn:focus{
 }
 
 a.app_store_btn:hover .play_icon{
-	background: url('../img/play_hover.png') no-repeat;
+	background: url('../img/play_hover.webp') no-repeat;
 }
 
 a.app_store_btn:hover .iphone_icon{
@@ -622,7 +622,7 @@ a.app_link{
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	background: url('../img/nav_arrow.png') no-repeat;
+	background: url('../img/nav_arrow.webp') no-repeat;
 	text-indent: -200px;
 	overflow: hidden;
 
@@ -643,7 +643,7 @@ a.app_link{
 #tslider .owl-controls .owl-prev:hover,
 #tslider .owl-controls .owl-next:hover{
 	cursor: pointer;
-	background: url('../img/nav_arrow_hover.png') no-repeat;
+	background: url('../img/nav_arrow_hover.webp') no-repeat;
 }
 
 #tslider .owl-controls .owl-prev:hover{
@@ -739,7 +739,7 @@ a.app_link{
 }
 
 #mc_submit i.icon{
-	background: url('../img/sub_icon.png') no-repeat;
+	background: url('../img/sub_icon.webp') no-repeat;
 }
 
 #mc_submit i.loading{
