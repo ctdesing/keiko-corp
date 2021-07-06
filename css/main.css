@@ -185,23 +185,42 @@ header .social li:first-child{
 	margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Hero section 		*/
+@media all and (min-width: 1280px) {
+	.hero {
+		background: url('../img/hero_1800.jpg') no-repeat fixed center center;
+	}
+ }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+	.hero {
+		background: url('../img/hero_1280.jpg') no-repeat fixed center center;
+	}
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	.hero {
+		background: url('../img/hero_1024.jpg') no-repeat fixed center center;
+	}
+}
+ 
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.hero {
+		background: url('../img/hero_768.jpg') no-repeat fixed center center;
+	}
+}
+ 
+@media all and (max-width: 480px) {
+	.hero {
+		background: url('../img/hero_480.jpg') no-repeat fixed center center;
+	}
+}
 
 .hero{
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
 
